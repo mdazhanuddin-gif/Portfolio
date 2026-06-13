@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FleetDrive 360 — Case Study · Md Azhanuddin</title>
+  <meta name="description" content="An operating system for last-mile fleets — dispatch, live monitoring, maintenance and reporting across high-density operational data. Product Designer · UI/UX, 2024.">
+  <meta name="author" content="Md Azhanuddin">
+
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="FleetDrive 360 — Enterprise fleet operations">
+  <meta property="og:description" content="Dispatch, live monitoring, maintenance and reporting for last-mile fleets — high-density data made glanceable.">
+  <!-- <meta property="og:image" content="https://YOUR-DOMAIN/og/fleetdrive.png"> -->
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0a09'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='17' fill='%23d9a85c' text-anchor='middle'%3EAz%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="case-study.css">
+  <style>
+    body { --accent: #f2a53c; --accent-2: #f6bd66; --accent-soft: rgba(242,165,60,0.10); --accent-glow: rgba(242,165,60,0.22); }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div id="cs-loader" aria-hidden="true">
+    <div class="ldr-core">
+      <span class="ldr-ring"></span>
+      <span class="ldr-ring r2"></span>
+      <span class="ldr-mark">Az<span>.</span></span>
+    </div>
+    <div class="ldr-foot">
+      <div class="ldr-bar"><i></i></div>
+      <div class="ldr-tag">Loading</div>
+    </div>
+  </div>
+
+  <nav class="cs-nav">
+    <div class="container cs-nav-inner">
+      <a class="cs-back" href="index.html#work">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 18l-6-6 6-6"/></svg>
+        All work
+      </a>
+      <span class="cs-nav-mid">FleetDrive 360 · 2024</span>
+      <div class="cs-nav-actions">
+        <a href="resume.html" target="_blank" rel="noopener">Résumé</a>
+        <a class="cta" href="mailto:mdazhanuddin@gmail.com">Get in touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main">
+    <header class="cs-hero">
+      <div class="container">
+        <div class="cs-eyebrow">
+          <span class="num">04 / Enterprise</span>
+          <span>Enterprise fleet operations</span>
+          <span class="bar"></span>
+          <span class="place">The Metromax Group</span>
+        </div>
+
+        <h1 class="cs-title">An operating system for <span class="accent">last-mile fleets.</span></h1>
+
+        <p class="cs-lead">
+          FleetDrive 360 runs the day for last-mile operations — dispatch, live monitoring, maintenance and
+          reporting, all over high-density operational data. I designed the information architecture and the
+          dashboards that turn a flood of live signals into decisions a dispatcher can make in seconds.
+        </p>
+
+        <div class="cs-meta">
+          <div class="item"><span class="label">Role</span><span class="value">Product Designer · UI/UX</span></div>
+          <div class="item"><span class="label">Year</span><span class="value">2024</span></div>
+          <div class="item"><span class="label">Domain</span><span class="value">Logistics · operations</span></div>
+          <div class="item"><span class="label">Focus</span><span class="value">IA · dashboards · dispatch</span></div>
+        </div>
+
+        <div class="cs-visual">
+          <div class="vis-fill" style="background:radial-gradient(ellipse 100% 60% at 50% 100%, rgba(242,184,96,0.16), transparent 70%), linear-gradient(180deg,#100d08,#06070a);position:absolute;inset:0">
+            <svg viewBox="0 0 340 200" preserveAspectRatio="xMidYMid slice" style="position:absolute;inset:0;width:100%;height:100%">
+              <defs>
+                <pattern id="mapgrid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="0.5"/></pattern>
+                <linearGradient id="route" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="rgba(242,184,96,0.7)"/><stop offset="1" stop-color="rgba(242,184,96,0.4)"/></linearGradient>
+              </defs>
+              <rect width="340" height="200" fill="url(#mapgrid)"/>
+              <path d="M 0 70 Q 80 50 160 90 T 340 80" stroke="rgba(255,255,255,0.08)" stroke-width="14" fill="none" stroke-linecap="round"/>
+              <path d="M 60 0 L 80 120 L 160 175 L 220 200" stroke="rgba(255,255,255,0.08)" stroke-width="14" fill="none" stroke-linecap="round"/>
+              <path d="M 30 175 Q 100 155 140 120 T 300 50" stroke="url(#route)" stroke-width="2" fill="none" stroke-dasharray="3 4"><animate attributeName="stroke-dashoffset" from="0" to="-40" dur="2s" repeatCount="indefinite"/></path>
+              <circle cx="140" cy="120" r="4" fill="#f4b860"/>
+              <circle cx="140" cy="120" r="10" fill="none" stroke="#f4b860" stroke-opacity="0.3"><animate attributeName="r" values="6;14;6" dur="2s" repeatCount="indefinite"/><animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite"/></circle>
+              <circle cx="240" cy="86" r="3" fill="#f4d08a"/><circle cx="80" cy="150" r="3" fill="#f4d08a"/>
+            </svg>
+            <div style="position:absolute;top:16px;left:16px;right:16px;display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.1em">
+              <span>fleet · 04 active</span><span style="color:var(--pos)">● live</span>
+            </div>
+            <div style="position:absolute;bottom:16px;left:16px;background:rgba(8,8,11,0.7);backdrop-filter:blur(8px);border:1px solid var(--border-strong);border-radius:7px;padding:7px 11px;font-family:var(--font-mono);font-size:10px;color:var(--text);display:flex;align-items:center;gap:9px">
+              <span style="color:#f4b860">ETA</span> 14:32 · 2.1km
+            </div>
+          </div>
+          <span class="vis-tag">fleetdrive · ops</span>
+        </div>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <div class="kicker reveal">Overview</div>
+          <h2 class="head reveal">Operations software lives or dies on density.</h2>
+          <div class="prose reveal">
+            <p>
+              A fleet operator's screen is never calm — vehicles moving, jobs queuing, exceptions firing, all in
+              real time. FleetDrive 360 had to hold <strong>high-density operational data</strong> and still let
+              someone act fast and correctly. That's a different discipline from consumer UX: speed, legibility and
+              trust under load matter more than delight.
+            </p>
+            <p>
+              I owned the <strong>information architecture and the operational interfaces</strong> — structuring
+              dispatch, live monitoring, maintenance and reporting so each screen answers its question at a glance
+              and the next action is always obvious.
+            </p>
+          </div>
+        </div>
+        <aside class="facts reveal">
+          <div class="frow"><span class="fk">Client</span><span class="fv">The Metromax Group</span></div>
+          <div class="frow"><span class="fk">Role</span><span class="fv">Product Designer · UI/UX</span></div>
+          <div class="frow"><span class="fk">Domain</span><span class="fv">Last-mile logistics</span></div>
+          <div class="frow"><span class="fk">Modules</span><span class="fv">Dispatch · monitoring</span></div>
+          <div class="frow"><span class="fk"></span><span class="fv">Maintenance · reporting</span></div>
+          <div class="frow"><span class="fk">Data</span><span class="fv">High-density, live</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="container"><div class="section-divider"></div></div>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker reveal">The challenge</div>
+        <h2 class="head reveal">Make a flood of live data feel calm.</h2>
+        <div class="prose reveal" style="max-width:72ch">
+          <p>
+            Everything in fleet ops competes for attention — and an operator can't afford to hunt. The challenge
+            was <strong>hierarchy under pressure</strong>: surface the exceptions that need action now, keep the
+            rest available but quiet, and design read-outs that stay legible when dozens of vehicles update at once.
+          </p>
+          <p>
+            Across dispatch, monitoring, maintenance and reporting, the same data had to be reframed for different
+            jobs without fragmenting into four disconnected tools. A coherent <strong>IA</strong> was the spine that
+            held it together.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="kicker reveal">Approach</div>
+        <h2 class="head reveal">How the work moved.</h2>
+        <div class="ledger reveal">
+          <div class="lrow"><span class="lnum">01</span><span class="lname">Map the operational model</span><span class="ldesc">Understood the dispatcher's day — jobs, vehicles, exceptions — and the decisions each screen must support.</span><span class="lout">Research</span></div>
+          <div class="lrow"><span class="lnum">02</span><span class="lname">Architect the information</span><span class="ldesc">Structured dispatch, monitoring, maintenance and reporting into one coherent system.</span><span class="lout">IA</span></div>
+          <div class="lrow"><span class="lnum">03</span><span class="lname">Design the dashboards</span><span class="ldesc">Glance-first read-outs for live state, with detail and controls a click away.</span><span class="lout">Dashboards</span></div>
+          <div class="lrow"><span class="lnum">04</span><span class="lname">Design the dispatch flow</span><span class="ldesc">The core operator loop — assign, track, resolve — tuned for speed and few mistakes.</span><span class="lout">Dispatch UX</span></div>
+          <div class="lrow"><span class="lnum">05</span><span class="lname">Build reporting</span><span class="ldesc">Turned operational history into reports that answer the questions managers actually ask.</span><span class="lout">Reporting</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker reveal">What I designed</div>
+        <h2 class="head reveal">The operator's command surface.</h2>
+        <div class="solutions">
+
+          <article class="sol reveal">
+            <div class="sol-body">
+              <span class="sol-idx">01 — Information architecture</span>
+              <h3>One structure, four jobs</h3>
+              <p>A coherent IA that lets dispatch, monitoring, maintenance and reporting share data and navigation — so an operator moves between them without re-orienting.</p>
+              <ul>
+                <li>Unified navigation model</li>
+                <li>Shared entities across modules</li>
+                <li>Exception-first prioritisation</li>
+              </ul>
+            </div>
+            <div class="sol-media"><div class="shot"><span class="ph"><b>Add screenshot</b>Navigation / IA overview</span></div></div>
+          </article>
+
+          <article class="sol reveal">
+            <div class="sol-body">
+              <span class="sol-idx">02 — Operational dashboards</span>
+              <h3>Live state at a glance</h3>
+              <p>Dashboards that hold high-density, real-time data and still read instantly — the headline state is obvious, anomalies stand out, and depth is one interaction away.</p>
+              <ul>
+                <li>Real-time monitoring views</li>
+                <li>Glanceable status &amp; KPIs</li>
+                <li>Detail on demand</li>
+              </ul>
+            </div>
+            <div class="sol-media"><div class="shot"><span class="ph"><b>Add screenshot</b>Monitoring dashboard</span></div></div>
+          </article>
+
+          <article class="sol reveal">
+            <div class="sol-body">
+              <span class="sol-idx">03 — Dispatch UX</span>
+              <h3>Assign, track, resolve — fast</h3>
+              <p>The dispatcher's core loop, designed for speed and low error rates: assign jobs, follow them live, and handle exceptions without leaving the flow.</p>
+              <ul>
+                <li>Job assignment &amp; routing</li>
+                <li>Live tracking &amp; ETAs</li>
+                <li>Exception handling inline</li>
+              </ul>
+            </div>
+            <div class="sol-media"><div class="shot"><span class="ph"><b>Add screenshot</b>Dispatch console</span></div></div>
+          </article>
+
+          <article class="sol reveal">
+            <div class="sol-body">
+              <span class="sol-idx">04 — Reporting</span>
+              <h3>History that answers questions</h3>
+              <p>Operational data turned into reporting that managers can actually use — performance, maintenance and exceptions framed around the decisions they drive.</p>
+              <ul>
+                <li>Performance &amp; ops reports</li>
+                <li>Maintenance tracking</li>
+                <li>Readable, decision-oriented</li>
+              </ul>
+            </div>
+            <div class="sol-media"><div class="shot"><span class="ph"><b>Add screenshot</b>Reporting view</span></div></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="kicker reveal">Outcome</div>
+        <h2 class="head reveal">High-density ops, made operable.</h2>
+        <p class="callout reveal">
+          A single information architecture ties dispatch, monitoring, maintenance and reporting together —
+          so operators read live state at a glance and act without hunting.
+        </p>
+        <div class="impact reveal">
+          <div class="cell"><div class="fig">4</div><div class="desc">Operational modules unified under one IA.</div></div>
+          <div class="cell"><div class="fig">Live</div><div class="desc">Real-time data designed to stay legible under load.</div></div>
+          <div class="cell"><div class="fig"><span class="ph">[ add ]</span></div><div class="desc">Time-saved or error-reduction metric — your real figure.</div></div>
+        </div>
+        <p class="fill-note reveal">Drop in your real screenshots and any efficiency numbers — I'll wire them in.</p>
+      </div>
+    </section>
+
+    <nav class="pager" aria-label="More work">
+      <a class="prev" href="gameplay.html">
+        <div class="inner"><span class="pl">← Previous</span><span class="pt">Gameplay.ai</span></div>
+      </a>
+      <a class="next" href="mlo.html">
+        <div class="inner"><span class="pl">Next →</span><span class="pt">MLO</span></div>
+      </a>
+    </nav>
+
+    <section class="cs-cta">
+      <div class="container">
+        <h2>Building dense operational software that has to be <em>fast?</em></h2>
+        <p>I design for legibility and speed under real-world load.</p>
+        <a class="btn primary" href="mailto:mdazhanuddin@gmail.com">
+          Start a conversation
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M7 17 L17 7 M9 7 H17 V15"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="cs-footer">
+    <div class="container cs-footer-inner">
+      <div>© 2026 · Md Azhanuddin <span class="dot"></span> Product Designer · UX Architect <span class="dot"></span> Bengaluru</div>
+      <div><a href="mailto:mdazhanuddin@gmail.com">mdazhanuddin@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>
